@@ -1,0 +1,160 @@
+ body {
+        margin: 0;
+    }
+    p{
+        font-size: 20px;
+        font-family:Georgia, 'Georgia'
+    }
+    #input_container {float:right; position:relative; padding-right:100px; padding-top: 12px; margin:0; }
+    #input { height:20px; margin:0;  }
+    #input_img { position:absolute; top:15px; left:140px; width:20px; height:20px; background-color: transparent;}
+    .header {
+        padding-left: 110px;
+        padding-top: 10px;
+    }
+
+    .contact {
+
+        float: right;
+        padding-right: 100px;
+    }
+
+    .contactt {
+        padding-right: 180px;
+
+    }
+
+    .social {
+        float: right;
+        padding-right: 100px;
+        font-size: 18px;
+    }
+    .features{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .feature {
+        float: left;
+        width: 32%;
+        border-radius: 1px;
+        border-style: solid;
+        text-align: center;
+        border-color: #1B38AE;
+        margin-left: 5px;
+        height:200px;
+        background-color: lightblue;
+    }
+    .topmenu {
+        overflow: hidden;
+        padding-top: 7px;
+        background-color: #1B38AE !important;
+        padding-left: 100px;
+
+    }
+
+    .topmenu a {
+        color: black;
+        padding-left: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .nav {
+        padding-left: 110px;
+        overflow: hidden;
+        background-color: lightblue !important;
+    }
+
+    .nav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .nav a:hover {
+        background-color: #1B38AE;
+        color: black;
+    }
+
+.new_footer_area {
+    background: #fbfbfd;
+}
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+      overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+  background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+  background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/*************footer End*****************/
+
